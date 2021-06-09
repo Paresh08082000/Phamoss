@@ -1,0 +1,30 @@
+<script src="https://kit.fontawesome.com/382a0f27c6.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(-135deg, #c850c0, #4158d0);">
+   <div class="container">
+       <img src="assets/images/Phamoss.jpg" alt="Phamoss" width="100" height="100">
+       <a class="navbar-brand font-weight-bold text-white" href="#"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon text-white"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+               <a class="nav-link font-weight-bold text-white" [routerLink] = "['/home']" routerLinkActive = "active" style="font-size: 125%;"><span class="fa fa-home fa-lg"></span> Home</a>
+               </li>
+               <li class="nav-item">
+               <a class="nav-link font-weight-bold text-white" [routerLink] = "['/login']" routerLinkActive = "active" style="font-size: 125%;"><span class="fa fa-info fa-lg"></span> About Us</a>
+               </li>
+               <li class="nav-item">
+               <a class="nav-link font-weight-bold text-white" [routerLink] = "['contactus']" routerLinkActive = "active" style="font-size: 125%;"><span class="fa fa-address-card fa-lg"></span> Contact Us</a>
+               </li>
+               <li class="nav-item" style="margin-right: 5px;">
+                   <a class="nav-link font-weight-bold text-white"  data-toggle="modal" data-target="#ALoginmodal" style="font-size: 125%;"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link font-weight-bold text-white" [routerLink] = "['app-edit-profile']" routerLinkActive = "active" style="font-size: 125%;"><span class="fa fa-address-card fa-lg"></span> SignUp</a>
+               </li>
+               
+           </ul>
+       </div>

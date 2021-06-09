@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+/* -------------------------INDEX PAGE--------------------------- */
+
+.background-img{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.login-img{
+    width: 100%;
+    height: 100vh;
+    background: url("../../assets/images/001.png");
+    background-size: cover;
+    background-position-y: -150px;
+    background-attachment: fixed;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    
+    background-color: #6f9eaf;
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    
+    padding-left: 20px;
+    color: cornsilk;
+    font-weight: bolder;
+}
+
+.brand-name{
+    font-family: 'Pacifico', cursive;
+    padding-right: 62.5rem;
+}
+
+
+.nav-item{
+    padding: 0 18px;
+    color: #ffffff;
+} 
+
+
+.nav-link{
+    color: #fff;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+
+/* LOGIN/ SIGN UP FOR DOCTORS */
+
+
+.login-page-container{
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    width: 90%;
+    height: 650px;
+    background-color: #79a3b1;
+}
+
+.login-card{
+    position: absolute;
+    top: 7.6rem;
+    right: 12.5rem;
+    width: 400px;
+    height: 500px;
+    background-color: #f4eeed;
+    border-radius: 20px;
+}
+
+.login-details{
+    text-align: center;
+}
+
+.login_title{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.email{
+    margin-top: 30px;
+}
+
+.email-textbox{
+    margin-right: 30px;
+    transform: scale(1.2);
+    margin-bottom: 20px;
+    
+}
+
+.password{
+    margin-top: 32.5px;
+}
+
+.password-textbox{
+    margin-right: 30px;
+    transform: scale(1.2);
+}
+
+.e-mail{
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.pass{
+   
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.login-button{
+    margin-top: 35px;
+    transform: scale(1.5);
+}
+
+.register-button{
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: darkcyan;
+    color: #fff !important;
+}
+
+.dental-crown-img{
+    transform: scale(3);
+    padding-left: 100px;
+    padding-top: 120px;
+}
+
+.dentist-img{
+    transform: scale(3);
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+
+/* --------------------------REGISTRATION PAGE FOR DOCTORS---------------------------- */
+
+.registration-container{
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    width: 90%;
+    height: 650px;
+    background-color: #e8ffff;
+}
+
+.doctor-registration-quote{
+    font-size: 4rem;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+
+.register-title{
+    margin-left: 60px;
+    margin-bottom: 20px; 
+    font-size: 30px;
+}
+
+
+
+.register-card{
+    position: absolute;
+    top: 7rem;
+    right: 10rem;
+    width: 400px;
+    height: 550px;
+    background-color: #165f77;
+    border-radius: 20px;
+}
+
+.register-page-textbox{
+    transform: scale(1.2);
+    position:absolute;
+    left:140px;
+}
+
+.registration-details{
+    text-align: left;
+    color:#fff;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.container-signin{
+    padding-top: 30px;
+    text-align: center;
+    color: #FDE6FF;
+
+}
+.register-btn-register-page{
+    margin-top: 20px;
+    margin-left: 130px;
+    transform: scale(1.5);
+
+
+}
+
+.validation{
+    color: black;
+    font-size: small;
+    padding-left: 95px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.already-have-an-acc{
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+
+/*---------------------------- LOGIN/ SIGN UP FOR MANUFACTURERS----------------------- */
+
+.dental-machine-img{
+    transform: scale(3);
+    padding-left: 200px;
+    padding-top: 200px;
+
+}
+.dental-implant-img{
+    transform: scale(3);
+    padding-right: 60px;
+    padding-top: 120px;
+   
+}
+
+.dental-mirror-img{
+    transform: scale(2);
+    /* padding-right: 100px;
+    padding-top: 150px; */
+    
+}
+
+/* PARALAX */
+
+.container{
+    height: 80vh;
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overlay > h1 {
+    font-size: 5rem;
+    color: #0a3745;
+}
+
+.search-box{
+    
+    width: 35rem;
+    height: 4rem;
+    /* border-radius: 25px; */
+    align-items: center;
+}
+input[type="text"]
+{
+    font-size:24px;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 20px;
+    text-align: justify;
+    color: #cdd0cb;
+    font-size: 1.5rem;
+  }
+
+
+  /* ------------------------ABOUT---------------------- */
+
+  #about-container{
+      margin-top: 150px;
+      background-color: #845ec2;
+      width: 100%;
+      height: 600px;
+  }
+
+  .about-title{
+      font-size: 3rem;
+      color: #fff;
+      padding-top: 55px;
+      text-align: center;
+  }
+
+  .about-us-content{
+      text-align: center;
+      font-size: 2rem;
+      padding: 5% 18% 7%;
+      color: #fff;
+  }
+
+
+  /* ---------------------------TESTIMONIALS------------------------- */
+
+  #testimonials{
+    
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #222831;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 8% 20%;
+}
+
+#press{
+    background-color: rgba(255, 255, 255, 0.5);;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 5px;
+    background-color : #dddddd;
+}
+
+
+/* --------------------FOOTER--------------------------- */
+
+/* Footer */
+
+#footer{
+      background-color: #845ec2;
+      height: 17rem;
+    padding: 2% 10%;
+    text-align: center;
+}
+
+.social-icon{
+    color: #fff;
+    padding: 20px 10px;
+    transform: scale(1.5)
+}
+
+.copyright{
+    color: #fff;
+}

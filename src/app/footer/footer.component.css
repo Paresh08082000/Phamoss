@@ -1,0 +1,19 @@
+.container{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#footer{
+    background-color: #845ec2;
+    height: 17rem;
+  padding: 2% 10%;
+  text-align: center;
+}
+
+.social-icon{
+  color: #fff;
+  padding: 20px 10px;
+  transform: scale(1.5)
+}
+
+.copyright{
+  color: #fff;
+}

@@ -1,0 +1,171 @@
+
+
+<div class="container">
+    <h1 id="reach-us" style="font-family: Cambria, Cochin, Georgia, Times, serif;padding: 13px 0;">Reach Us</h1><hr>
+    <iframe class="contactiframe" height="350" width="100%"
+      src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Pimpri+Chinchwad+College+Of+Engineering,+Sector+No.+26,+Pimpri+Chinchwad,+Maharashtra&amp;aq=0&amp;oq=pccoe+pune&amp;sll=18.815427,76.775144&amp;sspn=12.002265,14.128418&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=18.658505,73.769374&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;output=embed">
+    </iframe>
+
+    <br />
+    <hr>
+</div>
+
+<div class="container">
+    <h4 style="
+                font-size: 40px;
+                border-bottom: 6apx solid #4caf50;
+                margin-bottom: 40px;
+                padding: 13px 0;
+                font-family: Cambria, Cochin, Georgia, Times, serif">Contact Us</h4>
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-4 box1 pt-4" style="background: rgb(76, 175, 80, 0.6);">
+                <!--Phone Number-->
+                    <a href='tel:$phone'><i class='fa fa-phone fa-3x'></i>
+                    <h3>Phone</h3>
+                    <p>9881546404</p>
+                    </a>
+            </div>
+            <div class="col-md-4 col-sm-4 box2 pt-4" style="background: rgb(192, 192, 200, 0.6);">
+                <a href=""><i class="fa fa-home fa-3x"></i>
+                <h3>Address</h3>
+                <!--Address-->
+                <p> 121, PCCOE
+                    Pimpri-Chinchwad, Pune
+                    Maharashtra</p>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-4 box3 pt-4" style="background: rgb(255, 0, 0, 0.6);">
+            <!--UserEmail-->
+                <a href='$UserEmail'><i class='fa fa-envelope fa-3x'></i>
+                <h3>E-mail</h3>
+                <p>shubham.kadam@gmail.com</p>
+                </a>
+            </div>
+        </div>
+        <hr>
+</div>
+
+
+<div class="container">
+    <div class="row row-content" style="
+                                        margin: 0px auto;
+                                        padding: 50px 0px 50px 0px;
+                                        border-bottom: 1px ridge;
+                                        min-height: 400px;
+                                    ">
+        <div class="col-12">
+            <h1 style="font-family: Cambria, Cochin, Georgia, Times, serif;padding: 13px 0;">Do You have Any Queries?</h1>
+        </div>
+            <div class="col-12 col-md-11">
+                <form #simpleForm="ngForm" (ngSubmit)="getUserValue(simpleForm.value)">
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First name</label>
+                        <div class="col-md-10">
+                            <input type="text" ngModel class="form-control" #firstname name="firstname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last name</label>                            <div class="col-md-10">
+                            <input type="text" ngModel class="form-control" #lastname name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" ngModel class="form-control" #areacode name="areacode" placeholder="Area code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" ngModel class="form-control" #telnum name="telnum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" ngModel class="form-control" #emailid name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve">
+                                    <strong>May we contact you?</strong>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your<br> Feed back</label>
+                        <div class="col-md-10">
+                            <textarea type="form-control" class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="form-group row">
+                      <div class="offset-md-2 col-md-10">
+                          <button class="btn btn-primary">
+                              Send Feedback
+                          </button>
+                      </div>
+                  </div>
+                  </form>
+        </div>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="row">             
+        <div class="col-4 offset-1 col-sm-2">
+            <h5 style="color: white; font-weight:bold;">LINKS</h5><br>
+            <ul class="list-unstyled">
+                <li><a href="#" style="color: white;">Home</a></li>
+                <li><a href="aboutus.html" style="color:white;">About</a></li>
+                <li><a href="#" style="color: white;">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-7 col-sm-5">
+            <h5 style="color: white; font-weight:bold;">Our Address</h5><br>
+            <address style="
+                            font-size: 100%;
+                            margin: 0px;
+                            color:white;
+                        ">
+              121, PCCOE<br>
+              Pimpri-Chinchwad, Pune<br>
+              Maharashtra<br>
+              
+              <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
+              <i class="fa fa-fax fa-lg"></i>+852 8765 4321<br>
+              <i class="fa fa-envelope fa-lg"></i><a href="mailto:pccoe@college.net">pccoe@college.net</a>
+            </address>
+        </div>
+        <div class="col-12 col-sm-4 align-self-center">
+            
+            <div class="text-center">
+                 <a class="btn btn-social-icon btn-google" href="http://google.com/+" style="color: white;" data-toggle="tooltip" data-placement="bottom" title="See Us In Google Plus"><i class="fa fa-google-plus"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php" style="color: white;" data-toggle="tooltip" data-placement="bottom" title="See Us In Facebook"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/" style="color: white;" data-toggle="tooltip" data-placement="bottom" title="See Us In LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/" style="color: white;" data-toggle="tooltip" data-placement="bottom" title="See Us In Twitter"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-google" href="http://newsfeed.com/" style="color: white;" data-toggle="tooltip" data-placement="bottom" title="News Feed"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
+                <a class="btn btn-social-icon" href="mailto:shubham@gmail.com" data-toggle="tooltip" data-placement="bottom" title="Mail US"><i class="fa fa-envelope-o" style="color: white;"></i></a>
+            </div>
+        </div>
+   </div>
+   <br>
+  <p class="copyright">© Copyright 2021 Phamoss</p>
+</footer>

@@ -1,0 +1,77 @@
+/* .carousel{
+    align-items: center;
+    margin: 180px;
+} */
+.about-us{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 100px 60px;
+    padding: 50px;
+    border-radius: 50%;
+}
+.about-us h1{
+    color: rgb(96, 36, 139);
+    font-size: 70px;
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.card-body {
+    min-height: 300px;
+    min-width: 300px;
+    margin-right: 5px;
+}
+.cards{
+    margin: 40px 20px;
+}
+.cards h2{
+    color: rgb(96, 36, 139);
+    font-family: 'Merriweather', serif;
+    text-align: center;  
+    font-size: 70px;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+.services h2{
+    font-size: 70px;
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.services .service {
+    margin-block: 10px 30px;
+    padding: 25px;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    text-indent: inherit;
+    border-radius: 50%;
+    background-color: rgb(173, 131, 204);
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .services .service{
+      width: 100%;
+    }
+}
+#footer{
+    background-color: #845ec2;
+    height: 17rem;
+  padding: 2% 10%;
+  text-align: center;
+}
+
+.social-icon{
+  color: #fff;
+  padding: 20px 10px;
+  transform: scale(1.5)
+}
+
+.copyright{
+  color: #fff;
+}
